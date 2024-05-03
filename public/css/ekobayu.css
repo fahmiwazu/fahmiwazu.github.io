@@ -1,0 +1,183 @@
+/*===================================================================
+  Project : Curriculum Vitae of Bayu Eko Saputro
+  Author: Bayu Eko Saputro
+  License: MIT
+===================================================================*/
+/*Mobile Page*/
+#sm-cover-header {
+  font-family: sans-serif;
+  overflow: hidden;
+  background: linear-gradient(rgba(19, 100, 205, 0.7), rgba(100, 44, 89, 0.6)), url(../img/cover-image.jpeg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#sm-cover-portofolio {
+  font-family: sans-serif;
+  overflow: hidden;
+  background: linear-gradient(rgba(119, 111, 3, 0.7), rgba(238, 216, 16, 0.24)), url(../img/solder.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#sm-cover-event {
+  font-family: sans-serif;
+  overflow: hidden;
+  background: linear-gradient(rgba(19, 100, 205, 0.7), rgba(14, 8, 99, 0.6)), url(../img/event-cover.jpeg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.img-profile {
+  max-width: 77rem;
+  max-height: 77rem;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+
+.section-divider {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #1dc8cd;
+  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.menu-home-1{
+  position: fixed;
+  display: visible;
+  background: darkslategrey;
+  color: #fff;
+  text-shadow: 2px 3px 3px black;
+  padding: 10px 18.7% 10px 14.7%;
+  font-size: 16px;
+  border-radius: 4px 4px 0 0;
+  bottom: 0;
+  transition: none;
+  left: -3.5%;
+}
+.menu-home-2{
+  position: fixed;
+  display: visible;
+  background: darkslategrey;
+  color: #fff;
+  text-shadow: 2px 3px 3px black;
+  padding: 10px 16.7% 10px 16.7%;
+  font-size: 16px;
+  border-radius: 4px 4px 0 0;
+  bottom: 0;
+  transition: none;
+  left: 30%;
+}
+.menu-home-3{
+  position: fixed;
+  display: visible;
+  background: darkslategrey;
+  color: #fff;
+  text-shadow: 2px 3px 3px black;
+  padding: 10px 18.7% 10px 14.7%;
+  font-size: 16px;
+  border-radius: 4px 4px 0 0;
+  bottom: 0;
+  transition: none;
+  left: 60%;
+}
+
+.menu-cv-1{
+  position: fixed;
+  display: visible;
+  background: darkslategrey;
+  color: #fff;
+  text-shadow: 2px 3px 3px black;
+  padding: 15px 10% 15px 10%;
+  font-size: 16px;
+  border-radius: 4px 4px 0 0;
+  bottom: 0;
+  transition: none;
+  left: -0.5%;
+}
+.menu-cv-2{
+  position: fixed;
+  display: visible;
+  background: darkslategrey;
+  color: #fff;
+  text-shadow: 2px 3px 3px black;
+  padding: 15px 10% 15px 10%;
+  font-size: 16px;
+  border-radius: 4px 4px 0 0;
+  bottom: 0;
+  transition: none;
+  left: 19%;
+}
+.menu-cv-3{
+  position: fixed;
+  display: visible;
+  background: darkslategrey;
+  color: #fff;
+  text-shadow: 2px 3px 3px black;
+  padding: 15px 10% 15px 10%;
+  font-size: 16px;
+  border-radius: 4px 4px 0 0;
+  bottom: 0;
+  transition: none;
+  left: 39%;
+}
+.menu-cv-4{
+  position: fixed;
+  display: visible;
+  background: darkslategrey;
+  color: #fff;
+  text-shadow: 2px 3px 3px black;
+  padding: 15px 10% 15px 10%;
+  font-size: 16px;
+  border-radius: 4px 4px 0 0;
+  bottom: 0;
+  transition: none;
+  left: 59%;
+}
+.menu-cv-5{
+  position: fixed;
+  display: visible;
+  background: darkslategrey;
+  color: #fff;
+  text-shadow: 2px 3px 3px black;
+  padding: 15px 10% 15px 8%;
+  font-size: 16px;
+  border-radius: 4px 4px 0 0;
+  bottom: 0;
+  transition: none;
+  left: 79.5%;
+}
+
+
+/*Tablet-Desktop Page*/
+#menu-tablet-desktop {
+  text-align: center;
+  background-color: darkslategray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+
+/*Setting Screen*/
+
+@media (max-width: 768px) {
+  #mobile-page {
+    display:visible;
+  }
+  #desktop-page{
+    display:none;
+  }
+}
+@media (min-width: 768px) {
+  #mobile-page {
+    display:none;
+  }
+  #desktop-page{
+    display:visible;
+  }
+}
