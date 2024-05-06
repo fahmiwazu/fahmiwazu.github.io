@@ -7,8 +7,8 @@
 #sm-cover-header {
   font-family: sans-serif;
   overflow: hidden;
-  background: linear-gradient(rgba(19, 100, 205, 0.7), rgba(100, 44, 89, 0.6)), url(../img/cover-image.jpeg) fixed center center;
-  background-size: cover;
+  background: linear-gradient(rgba(19, 100, 205, 0.7), rgba(100, 44, 89, 0.6)), url(../img/github.gif) fixed center center;
+  background-size: auto;
   padding: 80px 0;
 }
 
@@ -55,7 +55,8 @@
   border-radius: 4px 4px 0 0;
   bottom: 0;
   transition: none;
-  left: -3.5%;
+  left: 0%;
+  right: 50%;
 }
 .menu-home-2{
   position: fixed;
